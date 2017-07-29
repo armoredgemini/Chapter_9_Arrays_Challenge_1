@@ -1,10 +1,19 @@
+import java.util.HashMap;
+
 /**
  * Created by ac003588 on 7/26/2017.
  */
 public class Main {
 
+    static HashMap test = new HashMap();
+
 
     public static void main(String[] args) {
+
+   MobilePhone phone = new MobilePhone();
+   phone.contacts.listContacts();
+   phone.ContactsMenu();
+
 
 //        int[] myIntArray = new int[10];
 //
@@ -34,8 +43,8 @@ public class Main {
 //
 //        }
 
-        ArrayTest a1 = new ArrayTest();
-        a1.sortArray(5);
+//        ArrayTest a1 = new ArrayTest();
+//        a1.sortArray(5);
 
     }
 }
